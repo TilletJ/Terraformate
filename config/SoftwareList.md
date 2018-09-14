@@ -7,10 +7,11 @@
 - [x] build-essential
 - [x] curl
 - [x] arduino
-- [x] python
-- [x] python3
-- [x] pep8
+- [x] python-pip
+- [x] python3-pip
 - [x] python3-pep8
+- [x] python3-matplotlib
+- [x] python3-numpy
 - [x] ipython
 - [x] ipython3
 
