@@ -63,8 +63,11 @@
 - [x] zsh
 - [x] screen
 - [x] redshift
+- [x] tree
+
 ### For KDE:
 - [x] plasma-applet-redshift-control
+- [x] korganizer
 
 
 ## Remove
