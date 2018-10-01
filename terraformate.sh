@@ -135,7 +135,7 @@ if [ ${CONNECTION} -eq 0 ]; then
 else
     loginfo "${BOL}${RED}  --> Not connected to the internet! ${END}"
     loginfo "${BOL}${RED}  --> Exiting program! ${END}"
-    exit 0
+#    exit 0
 fi
 
 
@@ -238,7 +238,7 @@ if [ -s ${TEMPFILE1} ]
 then
     loginfo "${BOL}${CYA}  --> Will be removed:${END}"
     loginfo "${BOL}${RED}      ${UNINSTALL_LIST}${END}"
-    sudo aptitude purge -y $UNINSTALL_LIST 2>> ${LOGFILE}
+    aptitude purge -y $UNINSTALL_LIST 2>> ${LOGFILE}
 else
     loginfo "${BOL}${LGR}  --> Nothing will be removed! ${END}"
 fi
@@ -300,7 +300,7 @@ if [ -s ${TEMPFILE1} ]
 then
     loginfo "${BOL}${CYA}  --> Will be installed:${END}"
     loginfo "${BOL}${LGR}      ${INSTALL_LIST}${END}"
-    sudo aptitude install -y $INSTALL_LIST 2>> ${LOGFILE}
+    aptitude install -y $INSTALL_LIST 2>> ${LOGFILE}
 else
     loginfo "${BOL}${LGR}  --> Nothing will be installed! ${END}"
 fi

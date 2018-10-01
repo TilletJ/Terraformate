@@ -23,7 +23,6 @@
 - [x] cm-super
 - [x] texlive-lang-french
 - [x] texlive-lang-english
-- [x] texlive-math-extra
 - [x] texlive-fonts-extra
 - [x] texlive-generic-extra
 - [x] jabref
