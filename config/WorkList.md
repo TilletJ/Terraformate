@@ -24,15 +24,6 @@
 - [x] firefox
 - [x] firefox-locale-fr
 
-## LaTeX
-- [x] texlive
-- [x] cm-super
-- [x] texlive-lang-french
-- [x] texlive-math-extra
-- [x] texlive-fonts-extra
-- [x] texlive-generic-extra
-- [x] texmaker
-
 ## Bureautic
 - [x] libreoffice
 
