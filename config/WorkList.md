@@ -23,6 +23,7 @@
 - [x] chromium-browser
 - [x] firefox
 - [x] firefox-locale-fr
+- [x] wireshark
 
 ## Bureautic
 - [x] libreoffice
