@@ -16,6 +16,7 @@
 - [x] python-flake8
 - [x] python3-flake8
 - [x] ipython3
+- [x] ipython
 
 ## Internet
 - [x] thunderbird
