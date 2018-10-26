@@ -12,8 +12,9 @@
 
 # Color list
 # =========================================================
-# list on https://misc.flogisoft.com/bash/tip_colors_and_formatting
+# list on: https://misc.flogisoft.com/bash/tip_colors_and_formatting
 BOL="\e[1m"
+UNL="\e[4m"
 BLI="\e[5m"
 GRE="\e[32m"
 LGR="\e[92m"
@@ -125,8 +126,7 @@ TEMPFILE2=temp/temp2.txt
 
 # Checking the internet connection:
 # =========================================================
-echo ""
-echo "" >> ${LOGFILE}
+loginfo ""
 loginfo "${BOL}${GRE}==> ${BOL}${GRA}Checking if the computer is connected to the internet:${END}"
 
 CONNECTION=$(ping -q -c 2 www.ubuntu.com > /dev/null && echo 0 || echo 1)
@@ -377,7 +377,7 @@ fi
 # =========================================================
 loginfo ""
 loginfo "${BOL}${GRE}==> ${BOL}${GRA}End of the script! ${END}"
-echo -e "  \e[4m\e[94m--> See ${LOGFILE} for more informations${END}"
+echo -e "  ${UNL}${LBL}  --> See ${LOGFILE} for more informations${END}"
 
 
 
