@@ -47,7 +47,7 @@ while getopts ":rnhl:" optname
         echo "Will not reboot the computer after installations"
         ;;
       "l")
-	SOFTWARE_LIST=${OPTARG}
+	    SOFTWARE_LIST=${OPTARG}
         echo "The program will take the following file as a software list to install: ${SOFTWARE_LIST}"
         ;;
       "h")
