@@ -5,6 +5,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+- [ ] Generates install list from a running system, then search in repositories if newest packages matches.
 - [ ] Script "apt-mark showmanual" to generate a SoftwareList for installation migration.
 - [ ] Specific installation of softwares which are not in the distribution's repositories.
 - [ ] Adding config files for some specific packages like vim, ssh, redshift,...
