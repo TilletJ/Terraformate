@@ -7,7 +7,6 @@
 - [x] build-essential
 - [x] curl
 - [x] valgrind
-- [x] arduino
 - [x] python
 - [x] python3
 - [x] pep8
