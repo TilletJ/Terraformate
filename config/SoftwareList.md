@@ -71,6 +71,7 @@
 
 ## Security:
 - [x] rkhunter
+- [x] gufw
 
 ## Remove
 - [ ] gedit
