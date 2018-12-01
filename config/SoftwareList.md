@@ -69,6 +69,8 @@
 - [x] plasma-applet-redshift-control
 - [x] korganizer
 
+## Security:
+- [x] rkhunter
 
 ## Remove
 - [ ] gedit
