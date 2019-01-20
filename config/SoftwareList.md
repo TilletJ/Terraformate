@@ -6,35 +6,26 @@
 - [x] git
 - [x] build-essential
 - [x] curl
-- [x] valgrind
-- [x] oprofile
+- [x] arduino
 - [x] python
 - [x] python3
 - [x] pep8
 - [x] python3-pep8
-- [x] python-autopep8
-- [x] python-flake8
-- [x] python3-flake8
+- [x] ipython
 - [x] ipython3
 
 ## Internet
-- [x] thunderbird
-- [x] thunderbird-locale-fr
-- [x] chromium-browser
 - [x] firefox
-- [x] firefox-locale-fr
 
 ## LaTeX
-- [x] texlive
+- [x] texmaker
 - [x] cm-super
 - [x] texlive-lang-french
+- [x] texlive-lang-english
 - [x] texlive-math-extra
 - [x] texlive-fonts-extra
 - [x] texlive-generic-extra
-- [x] texmaker
-
-## Bureautic
-- [x] libreoffice
+- [x] jabref
 
 ## Graphism
 - [x] inkscape
@@ -43,38 +34,24 @@
 
 ## MultiMedia
 - [x] vlc
-- [x] clementine
+- [x] ffmpeg
 
 ## Miscellaneous
 - [x] htop
 - [x] dfc
-- [x] mc
-- [x] ranger
 - [x] terminator
-- [x] hunspell-fr
-- [x] mat
-- [x] cherrytree
 - [x] synapse
-- [x] gparted
-- [x] picocom
-- [x] bsdtar
-- [x] byobu
-- [x] gufw
 - [x] zsh
 - [x] screen
 - [x] redshift
+- [x] gtkterm
+- [x] minicom
 - [x] tree
-
-### For KDE:
-- [x] plasma-applet-redshift-control
-- [x] korganizer
-
-## Security:
-- [x] rkhunter
-- [x] gufw
+- [x] socat
+- [x] nmap
+- [x] openssh-server
 
 ## Remove
-- [ ] gedit
 
 ### telemetry on Ubuntu 18.04
-- [ ] ubuntu-report
+
